@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #ced2da;
+}
+
+.block {
+  height: 70px;
+  display: flex;
+  min-width: 70%;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  gap: 16px;
+}
+
+.leftAcc {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,196 @@
+.block {
+  background: url('../../assets/background/background.svg');
+  background-size: cover;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  max-width: 500px;
+}
+
+.contnent img {
+  display: block;
+  width: 100%;
+}
+
+.content h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+  width: 400px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.deliveryForm {
+  height: 386px;
+  width: 322px;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 72px;
+}
+
+.deliveryForm h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/* НОВИЙ */
+.dropdownFormField {
+  position: relative;
+}
+
+.formField label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #344051;
+}
+
+.formField select {
+  padding: 8px 8px 8px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #141c24;
+  border-color: #ced2da;
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  padding-left: 28px;
+  cursor: pointer;
+}
+
+.marker {
+  background-image: url('../../assets/icons/mainPageIcons/marker.svg');
+}
+
+.markerTwo {
+  background-image: url('../../assets/icons/mainPageIcons/marker2.svg');
+}
+
+.formSubmitBtn {
+  padding: 16px 32px;
+  background-color: #1975ff;
+  border-radius: 32px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ced2da;
+  border-radius: 8px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.dropdown p {
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  padding-left: 32px;
+  background-image: url('../../assets/icons/mainPageIcons/convert.svg');
+}
+
+.dropdownChoice {
+  position: absolute;
+  background: #ffffffd7;
+  border-radius: 8px;
+  width: 100%;
+  top: 100%;
+  z-index: 999;
+}
+
+.dropdownChoice_active {
+  display: none;
+}
+
+.chioceTabs {
+  background-color: #f3f4f6;
+  width: 100%;
+  border-radius: 16px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #d3d4d4;
+}
+
+/*ЕБАНЫЕ КНОПКИ блять*/
+
+.choiceTabsAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 16px;
+  width: 100%;
+  background-color: #f3f4f6;
+  color: #637083;
+  border: none;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.choiceTabsAction_active {
+  width: 100%;
+  border-radius: 16px;
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  padding: 16px 15px;
+}
+
+.choiceTabsPannel {
+  display: none;
+  background-color: #ffffffce;
+  border-radius: 8px;
+  max-height: 120px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.choiceTabsPannel_active {
+  display: block;
+  background-color: #ffffffb6;
+  border-radius: 8px;
+}
+
+.choiceItem {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.choiceForm {
+  display: flex;
+  align-items: center;
+  margin: 8px 16px;
+  height: 48px;
+}
+
+.choiceForm p {
+  min-width: 62px;
+  padding-right: 10px;
+}
+
+.choiceForm input {
+  border: 1px solid #ced2da;
+  border-radius: 8px;
+  padding: 12px 8px 12px 12px;
+  width: 100%;
+}
