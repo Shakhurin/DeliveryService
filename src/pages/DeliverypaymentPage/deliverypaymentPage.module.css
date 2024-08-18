@@ -1,0 +1,63 @@
+.center {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  width: 70%;
+}
+
+.block h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.radioBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+}
+.radio input {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.radio p {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.buttonBlock {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+}
+
+.buttonBlock button {
+  width: 220px;
+  height: 56px;
+  border-radius: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.returnButton {
+  border: 1px solid #ced2da;
+  background: none;
+}
+
+.continueButton {
+  background: #1975ff;
+  color: #fff;
+  border: none;
+}

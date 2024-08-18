@@ -50,6 +50,7 @@
   flex-direction: column;
   width: 100%;
 }
+
 /* НОВИЙ */
 .dropdownFormField {
   position: relative;
@@ -90,6 +91,7 @@
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .dropdown {
